@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google</title>
+
+    </head>
+
+    <style>
+        
+        .logo {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 260px;
+           
+        }
+        .search-bar {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+            height: 44px;
+            width: 582px;
+            border: 0.5px solid #dfe1e5;
+            border-radius: 20px;
+        }
+        .top-nav {
+            position: fixed;
+            display: flex;
+            top: 10px;
+            margin-right: 15px;
+            right: 0;
+        }
+
+        #gmail {
+            margin: 10px;  
+            font-size: 13px;    
+            font-family: sans-serif;
+            text-decoration: none;
+            color: rgba(0,0,0,0.87);      
+        }
+
+        #gmail:hover {
+            text-decoration: underline;
+        }
+        #google-apps {
+            width: 24px;
+            height: 24px;
+            margin:5px;
+        }
+
+        #google-apps:hover {
+            cursor: pointer;
+        }
+
+        .input-form {
+            display: flex;
+            width: 582px;
+            margin: auto;
+
+        }
+        #google-search {
+            position: fixed;
+            margin-left: 15px;
+            margin-top: 42px;;
+            width: 20px;
+            height: 20px;
+            
+        }
+
+        .search-div {
+            display: block;
+            width: 500px;
+            
+            margin-left: auto;
+            margin-right: auto;
+            margin: auto;
+
+        }
+        #google-profile {
+            width: 34px;
+            height: 34px;
+            margin-top: 2px;
+            margin-left: 10px;
+        }
+
+        .buttons {
+            text-align: center;
+            width: 360px;
+            height: 37px;
+            display: block;
+            margin: auto;
+            
+            
+        }
+
+        .buttons-design {
+            height: 37px;
+            width: 130px;
+            border: none;
+            font-size: 14px;    
+            font-family: arial,sans-serif;;
+            color: #3c4043;  
+
+        }
+
+        .buttons-design:hover {
+            border: 1px solid gray;
+            font-size: 14px;    
+            font-family: arial,sans-serif;;
+            text-decoration: none;
+            color: #3c4043;  
+            border-radius: 4px;
+            border: 1px solid #dadce0;
+            cursor: pointer;
+        }
+        #google-offered {
+            font-size: 12px;
+            font-family: sans-serif;
+            display: flex;
+            margin:auto;
+            
+        }
+
+        .div-offered {
+            display: flex; 
+            width: 250px; 
+            margin: auto;
+            font-family: sans-serif;
+            font-size: 12px;
+        }
+
+        .language {
+            margin: 5px;
+            color: #1a0dab;
+            text-decoration: none;
+        }
+
+        #google-mic {
+            width: 24px;
+            height: 24px;
+            margin-top: 42px;
+            position: fixed;
+            margin-left: 540px;
+        }
+
+        .footer-class {
+            color: #70757a;
+            text-decoration: none;
+            margin: 10px 20px 10px 20px;
+        }
+        .footer-class-2 {
+            margin: 20px 20px 20px 20px;            
+            color: #70757a;
+            text-decoration: none;
+            
+        }
+
+        .footer-class:hover {
+            text-decoration: underline;
+        }
+        .footer-class-2:hover {
+            text-decoration: underline;
+        }
+    </style>
+
+
+    <body>
+
+            <nav class="top-nav"> 
+                <a href="#" id="gmail">Gmail</a>
+                <a href="#" id="gmail">Images</a>
+                <img src="images/google-apps.png" id="google-apps">
+                <img src="images/google-profile.png" id="google-profile">
+            </nav>
+
+        
+            
+        <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+    <div style="margin: auto; width: 50%;" class="search-div">
+        <form class="input-form">
+        <input type="search" class="search-bar" > 
+            <img src="images/google-search.png" alt="Google search icon" id="google-search">
+            <img src="images/google-mic.png" alt="Google search icon" id="google-mic">
+            
+        </form>    
+    </div>
+    <div class="buttons" style="margin-top: 30px; ">
+        <button class="buttons-design">Google Search</button>
+        <button class="buttons-design">I'm feeling lucky</button>
+
+    </div>
+    <div class="div-offered" style="margin-top: 30px;" > 
+        <p id="google-offered">Google offered in:</p>
+        <a class="language" href="#">Italian</a>
+        <a class="language" href="#">German</a>
+        <a class="language" href="#">French</a>
+    </div>
+
+    
+    <footer style="position: fixed; bottom: 0; font-size: 15px; font-family: arial,sans-serif;">
+    <div style="border-bottom: 1px solid #dadce0;">
+        <p style="margin-left:20px; color: #70757a;">USA</p>     
+    </div>
+    <div style="width: 100vw; display: flex;  flex-wrap: wrap; justify-content: space-between; ">
+    <div style="margin-top: 15px; margin-bottom: 15px;">    
+        <a href="#" class="footer-class">About</a>
+        <a href="#" class="footer-class">Advertising</a>
+        <a href="#" class="footer-class">Business</a>
+        <a href="#" class="footer-class">How search works</a>
+        
+    </div>   
+    <div style="margin-top: 15px; margin-bottom: 15px; flex-wrap: wrap; justify-content: space-between;">
+        <a href="#" class="footer-class-2">Privacy</a>
+        <a href="#" class="footer-class-2">Terms</a>
+        <a href="#" class="footer-class-2">Settings</a>
+    </div>
+    </div>
+
+    </footer>
+    </body>
+
+</html>
